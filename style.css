@@ -15,9 +15,7 @@ body {
 }
 
 .col {
-    border: 1px solid black;
     flex: 1;
-    background: darkred;
     display: flex;
     flex-direction: column;
     justify-content: space-around;
@@ -41,6 +39,9 @@ body {
     border: none;
     font-size: 1.5rem;
     color: antiquewhite;
+    border-radius: 10px;
+    padding: 10px;
+    transition: background 0.3s;
 }
 
 .col button:hover {
